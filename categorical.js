@@ -96,3 +96,10 @@ class Categorical{
   }
 
 }
+
+const categorical = new Categorical(
+  document.querySelector('.tag-input-component'), 
+  document.querySelector('#spanContainer'),
+  'entry[category]'
+  );
+  categorical.init();
