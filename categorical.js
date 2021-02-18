@@ -97,7 +97,4 @@ class Categorical{
 
 }
 
-export { Categorical }
-
-// let cat = new Categorical(document.querySelector('.tag-input-component'), document.querySelector('#spanContainer'), 'entry[category]');
-// cat.init();
+export { Categorical };
