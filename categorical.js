@@ -32,7 +32,7 @@ class Categorical{
       } else {
         return;
       }
-  })
+    })
   }
   
   closeListener(ele){
