@@ -96,5 +96,3 @@ class Categorical{
   }
 
 }
-
-export { Categorical };
