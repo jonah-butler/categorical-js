@@ -31,4 +31,9 @@ const categorical = new Categorical(document.querySelector('.tag-input-component
 categorical.init();
 ```
 ## Sending Data to a Server
-Collecting the data is also simple. It's recommended to include an inputName such as *requestBody[category]* to easily grab all the rendered strings from a request.
+Collecting the data is also simple. The categorical container wrapped in a form makes it easy to grab your data on the server as each user input will genearate a hidden input field equal to the value of the input. It's recommended to include a nameAttribute such as *requestBody[category]* to easily grab all the rendered strings from the request body. No form is fine too. An async approach is easy too as each input field value sits right under the *data-added* class span. Some simple JS will do the trick:
+
+```javascript
+document.querySelectorAll('.data-add > input');
+```
+
